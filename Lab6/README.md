@@ -1,6 +1,6 @@
 
 
-# Lab 5: The Architecture of Bias
+# Lab 6: The Architecture of Bias
 
 ## Objective
 
