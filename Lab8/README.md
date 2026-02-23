@@ -41,5 +41,7 @@ Rigorous hypothesis testing — with pre-registered thresholds, assumption valid
 The analyst who understands this distinction — who treats α not as a fixed ritual but as a deliberate design choice — is the one building evidence that organizations can actually trust.
 
 ---
+Netflix's Return-Aware Experimentation framework treats the significance threshold not as a fixed statistical convention but as a dynamic business parameter calibrated to the cost of being wrong. Where academia defaults to p < 0.05 as a universal cutoff, Netflix adjusts decision thresholds based on the asymmetric stakes of each experiment — a test touching the core recommendation engine demands stricter evidence than a thumbnail color variant, because the downside risk of a false positive is orders of magnitude larger. This reflects a deeper truth: α is not a law of nature, it is a risk budget. My work with the Lalonde dataset internalized this distinction — controlling for Type I error at α = 0.05 was a deliberate design choice, not a ritual, and understanding why that threshold exists is what separates evidence architecture from mere statistical reporting.
+---
 
 *Dataset: Lalonde (1986) Experimental Subset | Tools: Python, SciPy, pandas, seaborn*
